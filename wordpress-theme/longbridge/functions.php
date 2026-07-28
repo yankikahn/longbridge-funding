@@ -44,13 +44,13 @@ add_action( 'wp_enqueue_scripts', 'longbridge_assets' );
 
 /**
  * Customizer: let the site owner edit phone + email without touching code.
- * Appearance -> Customize -> "Longbridge - Contact Info".
+ * Appearance -> Customize -> "Woodland Financial Group - Contact Info".
  */
 function longbridge_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'longbridge_contact',
 		array(
-			'title'    => __( 'Longbridge - Contact Info', 'longbridge' ),
+			'title'    => __( 'Woodland Financial Group - Contact Info', 'longbridge' ),
 			'priority' => 30,
 		)
 	);
@@ -74,7 +74,7 @@ function longbridge_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'longbridge_email',
 		array(
-			'default'           => 'hello@longbridgefunding.com',
+			'default'           => 'hello@woodlandfinancialgroup.com',
 			'sanitize_callback' => 'sanitize_email',
 		)
 	);

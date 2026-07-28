@@ -1,6 +1,6 @@
-# Longbridge Funding
+# Woodland Financial Group
 
-Landing page for **Longbridge Funding** — a business financing advisory
+Landing page for **Woodland Financial Group** — a business financing advisory
 (SBA loans, business term loans, lines of credit, revenue-based financing,
 equipment financing, and invoice factoring).
 
@@ -19,7 +19,7 @@ https://<your-username>.github.io/<repo-name>/
 - Copy, colors, and layout live in `index.html` (styles are in the `<style>`
   block near the top; brand colors are CSS variables like `--emerald`, `--gold`).
 - Placeholders to replace before sharing widely: phone `(800) 555-1234`,
-  `hello@longbridgefunding.com`, the testimonial, and the stat figures.
+  `hello@woodlandfinancialgroup.com`, the testimonial, and the stat figures.
 
 ## WordPress version
 

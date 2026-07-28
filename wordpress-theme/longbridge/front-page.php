@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page - Longbridge Funding landing page.
+ * Front page - Woodland Financial Group landing page.
  *
  * @package Longbridge
  */
@@ -8,12 +8,12 @@ get_header();
 ?>
 <?php
 $lb_phone = get_theme_mod( 'longbridge_phone', '(800) 555-1234' );
-$lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
+$lb_email = get_theme_mod( 'longbridge_email', 'hello@woodlandfinancialgroup.com' );
 ?>
 <!-- ================= HEADER ================= -->
 <header class="site-header" id="header">
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Longbridge Funding home">
+    <a class="brand" href="#top" aria-label="Woodland Financial Group home">
       <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <rect width="40" height="40" rx="8" fill="var(--emerald)"/>
         <!-- Fire Island Inlet (Robert Moses) through-arch bridge -->
@@ -23,12 +23,12 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
         <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
         <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
       </svg>
-      <span class="brand-name">Longbridge</span>
+      <span class="brand-name">Woodland Financial Group</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
       <a href="#products">Financing</a>
       <a href="#how">How it works</a>
-      <a href="#why">Why Longbridge</a>
+      <a href="#why">Why Woodland</a>
       <a href="#apply">Contact</a>
     </nav>
     <div class="nav-cta">
@@ -100,28 +100,28 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/><path d="M9 11h.01M15 11h.01"/></svg>
         <h3>SBA Loans</h3>
         <p>Government-backed 7(a) and 504 loans with long terms and low rates — the gold standard for established businesses ready to grow.</p>
-        <div class="product-meta"><span class="amt"><small>Up to</small>$5.5M</span><span class="term">Terms to 25 yrs</span></div>
+        <div class="product-meta"><span class="amt"><small>Up to</small>$5M</span><span class="term">Terms to 25 yrs</span></div>
       </article>
 
       <article class="product reveal">
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/><circle cx="8" cy="14" r="1.2"/></svg>
         <h3>Business Term Loans</h3>
         <p>A single lump sum with predictable payments. Ideal for expansion, hiring, or a defined project with a clear return.</p>
-        <div class="product-meta"><span class="amt"><small>Up to</small>$2M</span><span class="term">6 mo – 5 yrs</span></div>
+        <div class="product-meta"><span class="amt"><small>Up to</small>$5M</span><span class="term">6 mo – 5 yrs</span></div>
       </article>
 
       <article class="product reveal">
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v10H4z"/><path d="M4 11h16"/><path d="M8 15h4"/></svg>
         <h3>Lines of Credit</h3>
         <p>Draw what you need, when you need it, and only pay for what you use. Cash-flow insurance for the unexpected.</p>
-        <div class="product-meta"><span class="amt"><small>Up to</small>$250K</span><span class="term">Revolving</span></div>
+        <div class="product-meta"><span class="amt"><small>Up to</small>$350K</span><span class="term">Revolving</span></div>
       </article>
 
       <article class="product reveal">
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>
         <h3>Revenue-Based Financing</h3>
         <p>Funding that flexes with your sales. Repay as a small share of daily revenue — lighter in slow weeks, faster in busy ones.</p>
-        <div class="product-meta"><span class="amt"><small>Up to</small>$1M</span><span class="term">Flexible</span></div>
+        <div class="product-meta"><span class="amt"><small>Up to</small>$10M</span><span class="term">Flexible</span></div>
       </article>
 
       <article class="product reveal">
@@ -172,7 +172,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
 <section class="section why" id="why">
   <div class="wrap why-grid">
     <div class="reveal">
-      <span class="eyebrow">Why Longbridge</span>
+      <span class="eyebrow">Why Woodland</span>
       <h2 class="section-head" style="margin:16px 0 0;font-size:var(--step-3)">Advisors, not order-takers.</h2>
       <div class="why-list">
         <div class="why-item">
@@ -198,7 +198,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
       <span class="eyebrow">By the numbers</span>
       <h3>Capital that meets you where you are.</h3>
       <div class="stat-grid">
-        <div class="stat"><div class="n">$5.5M</div><div class="l">Maximum funding available</div></div>
+        <div class="stat"><div class="n">$10M</div><div class="l">Maximum funding available</div></div>
         <div class="stat"><div class="n">24 hrs</div><div class="l">Typical decision turnaround</div></div>
         <div class="stat"><div class="n">6+</div><div class="l">Financing products under one roof</div></div>
         <div class="stat"><div class="n">$0</div><div class="l">Cost &amp; no credit impact to apply</div></div>
@@ -270,13 +270,13 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
         <button type="submit" class="btn btn-primary">Request my options
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </button>
-        <p class="form-fine">By submitting, you agree to be contacted by Longbridge Funding about financing options. Submitting this form does not guarantee approval.</p>
+        <p class="form-fine">By submitting, you agree to be contacted by Woodland Financial Group about financing options. Submitting this form does not guarantee approval.</p>
       </form>
 
       <div class="form-success" id="formSuccess" role="status" aria-live="polite">
         <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
         <h3>Thank you — your request is in.</h3>
-        <p>A Longbridge advisor will reach out shortly to walk through your options. Keep an eye on your inbox and phone.</p>
+        <p>A Woodland Financial Group advisor will reach out shortly to walk through your options. Keep an eye on your inbox and phone.</p>
       </div>
     </div>
   </div>
@@ -299,7 +299,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
             <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
             <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
           </svg>
-          <span class="brand-name">Longbridge</span>
+          <span class="brand-name">Woodland Financial Group</span>
         </a>
         <p>Connecting growing businesses with the capital to build what's next.</p>
       </div>
@@ -315,7 +315,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
         </div>
         <div class="foot-col">
           <h4>Company</h4>
-          <a href="#why">Why Longbridge</a>
+          <a href="#why">Why Woodland</a>
           <a href="#how">How it works</a>
           <a href="#apply">Contact</a>
         </div>
@@ -328,10 +328,10 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@longbridgefunding.com' );
       </div>
     </div>
     <div class="foot-bottom">
-      <p>© 2026 Longbridge Funding. All rights reserved.</p>
+      <p>© 2026 Woodland Financial Group. All rights reserved.</p>
       <p>Privacy Policy · Terms of Service</p>
     </div>
-    <p class="disclaimer">Longbridge Funding is a business financing advisory and does not lend directly. All financing is provided by third-party lending partners and is subject to credit approval, underwriting, and lender terms. Rates, amounts, and terms shown are illustrative and vary by qualification. Longbridge Funding offers business-purpose financing only.</p>
+    <p class="disclaimer">Woodland Financial Group is a business financing advisory and does not lend directly. All financing is provided by third-party lending partners and is subject to credit approval, underwriting, and lender terms. Rates, amounts, and terms shown are illustrative and vary by qualification. Woodland Financial Group offers business-purpose financing only.</p>
   </div>
 </footer>
 <?php get_footer(); ?>

@@ -1,6 +1,6 @@
-# Longbridge Funding — WordPress theme install guide
+# Woodland Financial Group — WordPress theme install guide
 
-This is the Longbridge landing page packaged as an installable WordPress theme
+This is the Woodland landing page packaged as an installable WordPress theme
 (`longbridge.zip`). Once installed and activated, your homepage renders the exact
 design — no page building required.
 
@@ -12,7 +12,7 @@ You need a **WordPress site you control**. Since nothing's set up yet, pick ONE:
 
 - **Self-hosted WordPress (recommended, most flexible)** — buy hosting with 1-click
   WordPress from **Hostinger** or **SiteGround** (~$3–10/mo), plus a domain
-  (e.g. `longbridgefunding.com`). They install WordPress for you.
+  (e.g. `woodlandfinancialgroup.com`). They install WordPress for you.
 - **WordPress.com** — works ONLY on the **Business plan or higher** (~$25/mo).
   Cheaper WordPress.com plans block custom theme uploads, so the zip won't install.
 
@@ -29,16 +29,16 @@ You need a **WordPress site you control**. Since nothing's set up yet, pick ONE:
 3. Choose **`longbridge.zip`** and click **Install Now**.
 4. Click **Activate**.
 
-Your homepage now shows the Longbridge landing page. (The theme uses a
+Your homepage now shows the Woodland landing page. (The theme uses a
 `front-page.php` template, so it takes over the homepage automatically.)
 
 ---
 
 ## Set it up
 
-- **Site title:** Settings → General → set **Site Title** to `Longbridge Funding`
+- **Site title:** Settings → General → set **Site Title** to `Woodland Financial Group`
   (this becomes the browser tab title).
-- **Phone & email:** Appearance → **Customize → "Longbridge — Contact Info"** →
+- **Phone & email:** Appearance → **Customize → "Woodland — Contact Info"** →
   edit the phone number and email. These update the footer instantly — no code.
 - **If the homepage doesn't show the design:** Settings → **Reading** → set
   "Your homepage displays" to **A static page**, and pick any page (or leave it on
@@ -76,7 +76,7 @@ standard WordPress way is a free form plugin:
 
 ## Placeholders to replace before going live
 
-- Phone `(800) 555-1234` and `hello@longbridgefunding.com`
+- Phone `(800) 555-1234` and `hello@woodlandfinancialgroup.com`
 - The testimonial (name + quote)
 - The stat figures (kept as capabilities, not a fabricated track record)
 - The footer legal/disclaimer — have it reviewed for your state/licensing

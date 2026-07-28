@@ -1,8 +1,8 @@
 /*
-Theme Name: Longbridge Funding
+Theme Name: Woodland Financial Group
 Theme URI: https://longbridgefunding.com
-Author: Longbridge Funding
-Description: Clean, modern one-page landing theme for Longbridge Funding, a business financing advisory. Emerald + gold palette with Fraunces + Hanken Grotesk typography, full light/dark support, and a lead-capture form section.
+Author: Woodland Financial Group
+Description: Clean, modern one-page landing theme for Woodland Financial Group, a business financing advisory. Emerald + gold palette with Fraunces + Hanken Grotesk typography, full light/dark support, and a lead-capture form section.
 Version: 1.0.0
 Requires at least: 6.0
 Tested up to: 6.6
@@ -13,16 +13,16 @@ Text Domain: longbridge
 */
 
 /* ============================================================
-   LONGBRIDGE FUNDING — landing page
-   Palette: pine-emerald brand, cool limestone ground, antique gold hairline
+   WOODLAND FINANCIAL GROUP — landing page
+   Palette: hunter-green brand, cool limestone ground, antique gold hairline
    Type: Fraunces (display) + Hanken Grotesk (body)
    ============================================================ */
 
 :root {
   /* brand */
-  --emerald:        #0C3B32;
-  --emerald-deep:   #082A24;
-  --emerald-bright: #1F6B58;
+  --emerald:        #2F4F37;
+  --emerald-deep:   #1D3323;
+  --emerald-bright: #3F6A49;
   --gold:           #B98A3E;
   --gold-soft:      #D6B57A;
 
@@ -36,7 +36,7 @@ Text Domain: longbridge
   --line:      #DCDED6;
   --line-soft: #E6E8E1;
   --brand:     var(--emerald);
-  --brand-ink: #0C3B32;      /* readable emerald on light */
+  --brand-ink: #2A4831;      /* readable hunter green on light */
   --on-brand:  #F1F5F1;
 
   /* type scale */
@@ -62,8 +62,8 @@ Text Domain: longbridge
     --faint:     #6E7E76;
     --line:      #24352E;
     --line-soft: #1B2A24;
-    --brand:     #4FB79C;
-    --brand-ink: #7FD3BB;
+    --brand:     #6FAF7E;
+    --brand-ink: #9AC9A4;
     --on-brand:  #EAF3EE;
   }
 }
@@ -71,12 +71,12 @@ Text Domain: longbridge
 :root[data-theme="light"] {
   --bg:#F3F4F0; --bg-alt:#ECEEE7; --surface:#FCFCFA; --ink:#12201C;
   --muted:#5A6B64; --faint:#8A9992; --line:#DCDED6; --line-soft:#E6E8E1;
-  --brand:var(--emerald); --brand-ink:#0C3B32; --on-brand:#F1F5F1;
+  --brand:var(--emerald); --brand-ink:#2A4831; --on-brand:#F1F5F1;
 }
 :root[data-theme="dark"] {
   --bg:#0A1512; --bg-alt:#0E1B17; --surface:#10201B; --ink:#E8ECE6;
   --muted:#9DACA4; --faint:#6E7E76; --line:#24352E; --line-soft:#1B2A24;
-  --brand:#4FB79C; --brand-ink:#7FD3BB; --on-brand:#EAF3EE;
+  --brand:#6FAF7E; --brand-ink:#9AC9A4; --on-brand:#EAF3EE;
 }
 
 * { box-sizing: border-box; }
