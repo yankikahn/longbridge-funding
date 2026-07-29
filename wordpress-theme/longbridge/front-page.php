@@ -7,8 +7,8 @@
 get_header();
 ?>
 <?php
-$lb_phone = get_theme_mod( 'longbridge_phone', '(800) 555-1234' );
-$lb_email = get_theme_mod( 'longbridge_email', 'hello@woodlandfinancialgroup.com' );
+$lb_phone = get_theme_mod( 'longbridge_phone', '(800) 771-4330' );
+$lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
 ?>
 <!-- ================= HEADER ================= -->
 <header class="site-header" id="header">
@@ -302,6 +302,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@woodlandfinancialgroup.com
           <span class="brand-name">Woodland Financial Group</span>
         </a>
         <p>Connecting growing businesses with the capital to build what's next.</p>
+        <p style="margin-top:10px">1120 Old Country Road, Suite 204<br>Plainview, NY 11803</p>
       </div>
       <div class="foot-cols">
         <div class="foot-col">
@@ -329,7 +330,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'hello@woodlandfinancialgroup.com
     </div>
     <div class="foot-bottom">
       <p>© 2026 Woodland Financial Group. All rights reserved.</p>
-      <p>Privacy Policy · Terms of Service</p>
+      <p><a href="<?php echo esc_url( get_privacy_policy_url() ? get_privacy_policy_url() : '#' ); ?>">Privacy Policy</a> · Terms of Service</p>
     </div>
     <p class="disclaimer">Woodland Financial Group is a business financing advisory and does not lend directly. All financing is provided by third-party lending partners and is subject to credit approval, underwriting, and lender terms. Rates, amounts, and terms shown are illustrative and vary by qualification. Woodland Financial Group offers business-purpose financing only.</p>
   </div>

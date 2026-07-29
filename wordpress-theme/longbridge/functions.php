@@ -58,7 +58,7 @@ function longbridge_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'longbridge_phone',
 		array(
-			'default'           => '(800) 555-1234',
+			'default'           => '(800) 771-4330',
 			'sanitize_callback' => 'sanitize_text_field',
 		)
 	);
@@ -74,7 +74,7 @@ function longbridge_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'longbridge_email',
 		array(
-			'default'           => 'hello@woodlandfinancialgroup.com',
+			'default'           => 'processing@WoodlandFG.com',
 			'sanitize_callback' => 'sanitize_email',
 		)
 	);

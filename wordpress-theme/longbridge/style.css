@@ -361,6 +361,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .foot-col a:hover { color: var(--brand-ink); }
 .foot-bottom { margin-top: 46px; padding-top: 24px; border-top: 1px solid var(--line-soft); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; }
 .foot-bottom p { font-size: 0.76rem; color: var(--faint); line-height: 1.6; }
+.foot-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 2px; transition: color .2s; }
+.foot-bottom a:hover { color: var(--brand-ink); }
 .disclaimer { max-width: 780px; margin-top: 18px; font-size: 0.72rem; color: var(--faint); line-height: 1.6; }
 
 /* ---------- reveal animation ---------- */

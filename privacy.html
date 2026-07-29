@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Woodland Financial Group</title>
+<meta name="description" content="Privacy Policy for Woodland Financial Group — how we collect, use, disclose, and safeguard your personal and business information." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+:root {
+  --emerald:#2F4F37; --emerald-deep:#1D3323; --emerald-bright:#3F6A49;
+  --gold:#B98A3E; --gold-soft:#D6B57A;
+  --bg:#F3F4F0; --bg-alt:#ECEEE7; --surface:#FCFCFA; --ink:#12201C;
+  --muted:#5A6B64; --faint:#8A9992; --line:#DCDED6; --line-soft:#E6E8E1;
+  --brand:var(--emerald); --brand-ink:#2A4831; --on-brand:#F1F5F1;
+  --step--1: clamp(0.82rem, 0.79rem + 0.15vw, 0.9rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.4vw, 1.4rem);
+  --step-2:  clamp(1.5rem, 1.35rem + 0.75vw, 1.95rem);
+  --step-3:  clamp(2rem, 1.7rem + 1.5vw, 2.9rem);
+  --maxw: 1120px; --radius: 4px; --ease: cubic-bezier(0.2,0.7,0.2,1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#0A1512; --bg-alt:#0E1B17; --surface:#10201B; --ink:#E8ECE6;
+    --muted:#9DACA4; --faint:#6E7E76; --line:#24352E; --line-soft:#1B2A24;
+    --brand:#6FAF7E; --brand-ink:#9AC9A4; --on-brand:#EAF3EE;
+  }
+}
+:root[data-theme="light"] {
+  --bg:#F3F4F0; --bg-alt:#ECEEE7; --surface:#FCFCFA; --ink:#12201C;
+  --muted:#5A6B64; --faint:#8A9992; --line:#DCDED6; --line-soft:#E6E8E1;
+  --brand:var(--emerald); --brand-ink:#2A4831; --on-brand:#F1F5F1;
+}
+:root[data-theme="dark"] {
+  --bg:#0A1512; --bg-alt:#0E1B17; --surface:#10201B; --ink:#E8ECE6;
+  --muted:#9DACA4; --faint:#6E7E76; --line:#24352E; --line-soft:#1B2A24;
+  --brand:#6FAF7E; --brand-ink:#9AC9A4; --on-brand:#EAF3EE;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Hanken Grotesk", system-ui, sans-serif; font-size: var(--step-0);
+  line-height: 1.65; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+h1, h2 { font-family: "Fraunces", Georgia, serif; font-weight: 500; line-height: 1.12; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+a { color: inherit; }
+.wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+.eyebrow { font-size: var(--step--1); letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; color: var(--gold); display: inline-flex; align-items: center; gap: 10px; }
+.eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--gold); opacity: .7; }
+
+.btn { display:inline-flex; align-items:center; gap:9px; font-family:inherit; font-size:var(--step-0); font-weight:600; padding:12px 22px; border-radius:var(--radius); border:1px solid transparent; text-decoration:none; transition:transform .25s var(--ease), background .25s var(--ease); }
+.btn-primary { background: var(--brand); color: var(--on-brand); }
+.btn-primary:hover { transform: translateY(-2px); background: var(--emerald-bright); }
+:root[data-theme="dark"] .btn-primary { color:#05110D; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .btn-primary{ color:#05110D; } }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* header */
+.site-header { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 94%, transparent); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); border-bottom: 1px solid transparent; transition: border-color .3s var(--ease); }
+.site-header.scrolled { border-bottom-color: var(--line); }
+.nav { display:flex; align-items:center; justify-content:space-between; height:72px; }
+.brand { display:flex; align-items:center; gap:11px; text-decoration:none; color:var(--ink); }
+.brand-mark { width:30px; height:30px; flex:none; }
+.brand-name { font-family:"Fraunces", serif; font-weight:600; font-size:1.24rem; letter-spacing:-0.01em; }
+.nav-links { display:flex; align-items:center; gap:30px; }
+.nav-links a { text-decoration:none; color:var(--muted); font-size:var(--step--1); font-weight:500; transition:color .2s; }
+.nav-links a:hover { color:var(--ink); }
+.nav-cta { display:flex; align-items:center; gap:14px; }
+.theme-toggle { width:38px; height:38px; border-radius:50%; border:1px solid var(--line); background:transparent; color:var(--muted); cursor:pointer; display:grid; place-items:center; transition:color .2s, border-color .2s; }
+.theme-toggle:hover { color:var(--ink); border-color:var(--brand); }
+@media (max-width: 860px){ .nav-links{ display:none; } .nav-cta .btn{ display:none; } }
+
+/* page header band */
+.page-head { background: linear-gradient(165deg, var(--emerald) 0%, var(--emerald-deep) 100%); color: var(--on-brand); padding: clamp(50px, 7vw, 90px) 0 clamp(44px, 6vw, 72px); }
+.page-head .eyebrow { color: var(--gold-soft); }
+.page-head .eyebrow::before { background: var(--gold-soft); }
+.page-head h1 { font-size: var(--step-3); font-weight: 400; color: #F6F8F4; margin-top: 16px; }
+.page-head .date { margin-top: 16px; color: #C7D6CE; font-size: var(--step--1); }
+
+/* legal prose */
+.legal { padding: clamp(48px, 7vw, 84px) 0 20px; }
+.legal .col { max-width: 760px; margin: 0 auto; }
+.legal .lead { font-size: var(--step-1); color: var(--muted); line-height: 1.55; }
+.legal section { margin-top: 44px; }
+.legal h2 { font-size: var(--step-2); margin-bottom: 14px; }
+.legal p { margin: 0 0 14px; color: var(--ink); }
+.legal p.note { color: var(--muted); }
+.legal ul { margin: 0 0 14px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.legal li { position: relative; padding-left: 24px; color: var(--ink); }
+.legal li::before { content: ""; position: absolute; left: 4px; top: 11px; width: 7px; height: 7px; border: 1.5px solid var(--gold); border-radius: 50%; }
+.legal a.inline { color: var(--brand-ink); text-decoration: underline; text-underline-offset: 2px; }
+.contact-block { margin-top: 8px; padding: 24px 26px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.contact-block .name { font-weight: 700; color: var(--ink); }
+.contact-block p { margin: 0 0 4px; color: var(--muted); }
+.contact-block a { color: var(--brand-ink); text-decoration: none; }
+.contact-block a:hover { text-decoration: underline; }
+
+/* footer */
+.site-footer { background: var(--bg); border-top: 1px solid var(--line); padding: 56px 0 40px; margin-top: clamp(40px, 6vw, 80px); }
+.foot-top { display:flex; flex-wrap:wrap; justify-content:space-between; gap:34px; }
+.foot-brand { max-width: 320px; }
+.foot-brand .brand { margin-bottom: 14px; }
+.foot-brand p { color: var(--muted); font-size: var(--step--1); line-height: 1.6; margin: 0 0 10px; }
+.foot-cols { display:flex; flex-wrap:wrap; gap:46px; }
+.foot-col h4 { font-size:0.74rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--faint); font-weight:700; margin:0 0 14px; }
+.foot-col a { display:block; text-decoration:none; color:var(--muted); font-size:var(--step--1); padding:5px 0; transition:color .2s; }
+.foot-col a:hover { color: var(--brand-ink); }
+.foot-bottom { margin-top:46px; padding-top:24px; border-top:1px solid var(--line-soft); display:flex; flex-wrap:wrap; justify-content:space-between; gap:14px; }
+.foot-bottom p { font-size:0.76rem; color:var(--faint); line-height:1.6; margin: 0; }
+.foot-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.foot-bottom a:hover { color: var(--brand-ink); }
+</style>
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Woodland Financial Group home">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect width="40" height="40" rx="8" fill="var(--emerald)"/>
+        <path d="M6 26 C5 4 35 4 34 26" stroke="var(--gold-soft)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        <path d="M4 26 H36" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M10 14 V26 M15 10.5 V26 M20 9.5 V26 M25 10.5 V26 M30 14 V26" stroke="var(--gold-soft)" stroke-width="1" stroke-linecap="round"/>
+        <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">Woodland Financial Group</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#products">Financing</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#why">Why Woodland</a>
+      <a href="index.html#apply">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>
+      </button>
+      <a href="index.html#apply" class="btn btn-primary">Get funded</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective Date: July 29, 2026</p>
+  </div>
+</section>
+
+<main class="legal">
+  <div class="wrap col">
+    <p class="lead">Woodland Financial Group and/or Woodland Group (&ldquo;Woodland,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting the privacy and security of the information you provide. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal and business information when you visit our website, submit an application, communicate with us, or use our services.</p>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <p>We may collect personal, business, and financial information, including but not limited to:</p>
+      <ul>
+        <li>Business name and DBA</li>
+        <li>Business address and contact information</li>
+        <li>Owner and guarantor information</li>
+        <li>Government-issued identification</li>
+        <li>Social Security Number or Tax Identification Number</li>
+        <li>Date of birth</li>
+        <li>Bank statements</li>
+        <li>Merchant processing statements</li>
+        <li>Business financial information</li>
+        <li>Credit information</li>
+        <li>Banking information</li>
+        <li>Requested funding amount and purpose</li>
+        <li>IP address, browser information, and website usage data</li>
+        <li>Any additional information voluntarily provided by you</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How We Use Your Information</h2>
+      <p>Your information may be used to:</p>
+      <ul>
+        <li>Evaluate your application for business financing</li>
+        <li>Verify your identity and business information</li>
+        <li>Obtain consumer and commercial credit reports</li>
+        <li>Verify bank account information</li>
+        <li>Communicate with you regarding your application</li>
+        <li>Match your financing request with one or more lenders or funding sources</li>
+        <li>Provide customer support</li>
+        <li>Prevent fraud and comply with applicable laws</li>
+        <li>Improve our products, services, and website</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Information Sharing</h2>
+      <p>By submitting information to Woodland Financial Group and/or Woodland Group, you authorize us to share your information with:</p>
+      <ul>
+        <li>Banks</li>
+        <li>Commercial lenders</li>
+        <li>Alternative financing companies</li>
+        <li>Merchant cash advance providers</li>
+        <li>Equipment finance companies</li>
+        <li>SBA lenders</li>
+        <li>Factoring companies</li>
+        <li>Underwriters</li>
+        <li>Credit reporting agencies</li>
+        <li>Bank verification providers</li>
+        <li>Identity verification providers</li>
+        <li>Service providers assisting in processing your application</li>
+        <li>Attorneys, auditors, regulators, or government agencies when required by law</li>
+      </ul>
+      <p>We do not sell your personal information to unrelated third parties for marketing purposes.</p>
+    </section>
+
+    <section>
+      <h2>Credit Authorization</h2>
+      <p>By submitting an application, you authorize Woodland Financial Group and/or Woodland Group and its funding partners to obtain consumer and commercial credit reports, verify banking information, review merchant processing history, and obtain other information necessary to evaluate your request for financing.</p>
+    </section>
+
+    <section>
+      <h2>Electronic Communications</h2>
+      <p>By providing your telephone number and email address, you consent to receive:</p>
+      <ul>
+        <li>Telephone calls</li>
+        <li>Emails</li>
+        <li>Text (SMS) messages</li>
+        <li>Electronic notifications</li>
+      </ul>
+      <p>from Woodland Financial Group and/or Woodland Group regarding your application, financing opportunities, account updates, and customer service.</p>
+      <p class="note">Consent is not a condition of obtaining financing. Message and data rates may apply. You may opt out of text messages at any time by replying STOP.</p>
+    </section>
+
+    <section>
+      <h2>Data Security</h2>
+      <p>We maintain commercially reasonable administrative, technical, and physical safeguards designed to protect your information against unauthorized access, disclosure, alteration, or destruction.</p>
+      <p>Although no method of electronic transmission or storage is completely secure, we use industry-standard security practices to help protect your information.</p>
+    </section>
+
+    <section>
+      <h2>Data Retention</h2>
+      <p>We retain your information only for as long as reasonably necessary to:</p>
+      <ul>
+        <li>Process your application</li>
+        <li>Maintain business records</li>
+        <li>Meet legal and regulatory obligations</li>
+        <li>Resolve disputes</li>
+        <li>Enforce agreements</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cookies and Website Analytics</h2>
+      <p>Our website may use cookies and similar technologies to:</p>
+      <ul>
+        <li>Improve website performance</li>
+        <li>Analyze website traffic</li>
+        <li>Enhance user experience</li>
+        <li>Maintain website security</li>
+      </ul>
+      <p>You may disable cookies through your browser settings; however, some portions of the website may not function properly.</p>
+    </section>
+
+    <section>
+      <h2>Third-Party Websites</h2>
+      <p>Our website may contain links to third-party websites. Woodland Financial Group and/or Woodland Group is not responsible for the privacy practices or content of those websites.</p>
+    </section>
+
+    <section>
+      <h2>Children&rsquo;s Privacy</h2>
+      <p>Our services are intended solely for business owners and individuals at least eighteen (18) years of age. We do not knowingly collect information from children under the age of 18.</p>
+    </section>
+
+    <section>
+      <h2>Your Rights</h2>
+      <p>Subject to applicable law, you may request to:</p>
+      <ul>
+        <li>Access your personal information</li>
+        <li>Correct inaccurate information</li>
+        <li>Request deletion of information where legally permitted</li>
+        <li>Withdraw certain communications</li>
+        <li>Update your contact information</li>
+      </ul>
+      <p>Some information may be retained when required by law or necessary to complete business transactions.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Privacy Policy</h2>
+      <p>Woodland Financial Group and/or Woodland Group reserves the right to modify this Privacy Policy at any time. Any changes become effective immediately upon posting on our website. Continued use of our website or services constitutes acceptance of the updated Privacy Policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact Information</h2>
+      <div class="contact-block">
+        <p class="name">Woodland Financial Group and/or Woodland Group</p>
+        <p>1120 Old Country Road, Suite 204<br>Plainview, NY 11803</p>
+        <p>Phone: <a href="tel:+18007714330">800-771-4330</a></p>
+        <p>Email: <a href="mailto:processing@WoodlandFG.com">processing@WoodlandFG.com</a></p>
+        <p>Website: <a href="index.html">WoodlandFinancialGroup.com</a></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect width="40" height="40" rx="8" fill="var(--emerald)"/>
+            <path d="M6 26 C5 4 35 4 34 26" stroke="var(--gold-soft)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+            <path d="M4 26 H36" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M10 14 V26 M15 10.5 V26 M20 9.5 V26 M25 10.5 V26 M30 14 V26" stroke="var(--gold-soft)" stroke-width="1" stroke-linecap="round"/>
+            <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-name">Woodland Financial Group</span>
+        </a>
+        <p>Connecting growing businesses with the capital to build what&rsquo;s next.</p>
+        <p>1120 Old Country Road, Suite 204<br>Plainview, NY 11803</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Company</h4>
+          <a href="index.html#why">Why Woodland</a>
+          <a href="index.html#how">How it works</a>
+          <a href="index.html#apply">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h4>Get in touch</h4>
+          <a href="tel:+18007714330">(800) 771-4330</a>
+          <a href="mailto:processing@WoodlandFG.com">processing@WoodlandFG.com</a>
+          <a href="index.html#apply">Apply now</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Woodland Financial Group. All rights reserved.</p>
+      <p><a href="privacy.html">Privacy Policy</a> · Terms of Service</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  toggle.addEventListener('click', function () {
+    var current = root.getAttribute('data-theme');
+    if (!current) current = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    root.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
+  });
+  var header = document.getElementById('header');
+  var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 8); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
+</script>
+</body>
+</html>
