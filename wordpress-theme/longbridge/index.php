@@ -14,15 +14,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
 <header class="site-header" id="header">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Woodland Financial Group home">
-      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-        <rect width="40" height="40" rx="8" fill="var(--emerald)"/>
-        <!-- Fire Island Inlet (Robert Moses) through-arch bridge -->
-        <path d="M6 26 C5 4 35 4 34 26" stroke="var(--gold-soft)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-        <path d="M4 26 H36" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
-        <path d="M10 14 V26 M15 10.5 V26 M20 9.5 V26 M25 10.5 V26 M30 14 V26" stroke="var(--gold-soft)" stroke-width="1" stroke-linecap="round"/>
-        <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
-        <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
-      </svg>
+      <img class="brand-mark" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/woodland-logo.jpg" alt="Woodland Financial Group logo" width="40" height="40" />
       <span class="brand-name">Woodland Financial Group</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
@@ -252,15 +244,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
     <div class="foot-top">
       <div class="foot-brand">
         <a class="brand" href="#top">
-          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <rect width="40" height="40" rx="8" fill="var(--emerald)"/>
-            <!-- Fire Island Inlet (Robert Moses) through-arch bridge -->
-            <path d="M6 26 C5 4 35 4 34 26" stroke="var(--gold-soft)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-            <path d="M4 26 H36" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
-            <path d="M10 14 V26 M15 10.5 V26 M20 9.5 V26 M25 10.5 V26 M30 14 V26" stroke="var(--gold-soft)" stroke-width="1" stroke-linecap="round"/>
-            <path d="M9 26 V32 M31 26 V32" stroke="var(--gold-soft)" stroke-width="1.6" stroke-linecap="round"/>
-            <path d="M4 32 H36" stroke="var(--gold-soft)" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
-          </svg>
+          <img class="brand-mark" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/woodland-logo.jpg" alt="Woodland Financial Group logo" width="40" height="40" />
           <span class="brand-name">Woodland Financial Group</span>
         </a>
         <p>Connecting growing businesses with the capital to build what's next.</p>
