@@ -181,7 +181,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
         </div>
         <div class="why-item">
           <span class="dot"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></span>
-          <div><h3>Built for speed</h3><p>Same-day pre-qualification and decisions, because opportunities don't wait on underwriting.</p></div>
+          <div><h3>Decisions same day</h3><p>Same-day pre-qualification and decisions, because opportunities don't wait on underwriting.</p></div>
         </div>
       </div>
     </div>
