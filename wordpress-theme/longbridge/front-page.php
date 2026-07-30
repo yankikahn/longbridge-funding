@@ -216,7 +216,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
       <h2>See what your business qualifies for.</h2>
       <p class="apply-lead">Start your secure application and a dedicated advisor will review it — usually the same day.</p>
       <ul class="apply-points">
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Takes about 3 minutes</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Takes 3 minutes</li>
         <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>No obligation, no cost</li>
         <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Bank-level encryption &amp; security</li>
       </ul>
@@ -227,7 +227,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
         <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
       </span>
       <h3>Business Funding Application</h3>
-      <p class="sub">Secure and straightforward — about 3 minutes. A Woodland advisor personally reviews every application.</p>
+      <p class="sub">Secure and straightforward — 3 minutes. A Woodland advisor personally reviews every application.</p>
       <a href="https://yankikahn.github.io/longbridge-funding/apply.html" class="btn btn-primary" style="width:100%; justify-content:center;">Start your application
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
