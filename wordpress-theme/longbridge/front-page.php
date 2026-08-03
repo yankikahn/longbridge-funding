@@ -112,7 +112,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
       <article class="product reveal">
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>
         <h3>Revenue-Based Financing</h3>
-        <p>Funding that flexes with your sales. Repay as a small share of daily revenue — lighter in slow weeks, faster in busy ones.</p>
+        <p>Funding that flexes with your sales. Repay as a small share of Daily / Weekly / Monthly revenue — lighter in slow weeks, faster in busy ones.</p>
         <div class="product-meta"><span class="amt"><small>Up to</small>$10M</span><span class="term">Daily / Weekly / Monthly</span></div>
       </article>
 
