@@ -113,7 +113,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
         <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>
         <h3>Revenue-Based Financing</h3>
         <p>Funding that flexes with your sales. Repay as a small share of daily revenue — lighter in slow weeks, faster in busy ones.</p>
-        <div class="product-meta"><span class="amt"><small>Up to</small>$10M</span><span class="term">Daily / weekly / monthly</span></div>
+        <div class="product-meta"><span class="amt"><small>Up to</small>$10M</span><span class="term">Daily / Weekly / Monthly</span></div>
       </article>
 
       <article class="product reveal">
@@ -191,7 +191,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
       <h3>Capital that meets you where you are.</h3>
       <div class="stat-grid">
         <div class="stat"><div class="n">$10M</div><div class="l">Maximum funding available</div></div>
-        <div class="stat"><div class="n">Same day</div><div class="l">Typical decision turnaround</div></div>
+        <div class="stat"><div class="n">24 hours</div><div class="l">Typical decision turnaround</div></div>
         <div class="stat"><div class="n">6+</div><div class="l">Financing products under one roof</div></div>
         <div class="stat"><div class="n">$0</div><div class="l">Cost &amp; no credit impact to apply</div></div>
       </div>
