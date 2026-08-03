@@ -276,7 +276,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
     </div>
     <div class="foot-bottom">
       <p>© 2026 Woodland Group AKA Woodland Financial Group. All rights reserved.</p>
-      <p><a href="<?php echo esc_url( get_privacy_policy_url() ? get_privacy_policy_url() : '#' ); ?>">Privacy Policy</a> · Terms of Service</p>
+      <p><a href="<?php echo esc_url( get_privacy_policy_url() ? get_privacy_policy_url() : '#' ); ?>">Privacy Policy</a> · <a href="https://yankikahn.github.io/longbridge-funding/terms.html">Terms of Service</a></p>
     </div>
     <p class="disclaimer">Woodland Group AKA Woodland Financial Group is a business financing advisory and does not lend directly. All financing is provided by third-party lending partners and is subject to credit approval, underwriting, and lender terms. Rates, amounts, and terms shown are illustrative and vary by qualification. Woodland Group AKA Woodland Financial Group offers business-purpose financing only.</p>
   </div>
