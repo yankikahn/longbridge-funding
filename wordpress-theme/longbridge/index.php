@@ -21,7 +21,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
       <a href="#products">Financing</a>
       <a href="#how">How it works</a>
       <a href="#why">Why Woodland</a>
-      <a href="#apply">Contact</a>
+      <a href="https://yankikahn.github.io/longbridge-funding/apply.html">Contact</a>
     </nav>
     <div class="nav-cta">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">
@@ -264,7 +264,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
           <h4>Company</h4>
           <a href="#why">Why Woodland</a>
           <a href="#how">How it works</a>
-          <a href="#apply">Contact</a>
+          <a href="https://yankikahn.github.io/longbridge-funding/apply.html">Contact</a>
         </div>
         <div class="foot-col">
           <h4>Get in touch</h4>
