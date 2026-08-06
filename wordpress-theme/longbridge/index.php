@@ -21,7 +21,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
       <a href="#products">Financing</a>
       <a href="#how">How it works</a>
       <a href="#why">Why Woodland</a>
-      <a href="https://yankikahn.github.io/longbridge-funding/apply.html">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="nav-cta">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">
@@ -236,6 +236,27 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
   </div>
 </section>
 
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact" style="background:var(--bg-alt); border-top:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Contact</span>
+      <h2>Get in touch.</h2>
+      <p>Have a question or want to talk with an advisor? Send us a message and we'll get right back to you.</p>
+    </div>
+    <div class="reveal" style="max-width:820px; margin:0 auto; background:#FFFFFF; border:1px solid var(--line); border-radius:12px; padding:clamp(10px,2vw,20px); box-shadow:0 24px 50px -34px rgba(0,0,0,0.35);">
+      <iframe
+        id="JotFormIFrame-262156701050042"
+        title="Woodland Financial Group — Contact"
+        allow="geolocation; microphone; camera; fullscreen; payment"
+        src="https://form.jotform.com/262156701050042"
+        style="min-width:100%;max-width:100%;height:800px;border:none;"
+        scrolling="no">
+      </iframe>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <!-- ================= FOOTER ================= -->
@@ -264,7 +285,7 @@ $lb_email = get_theme_mod( 'longbridge_email', 'processing@WoodlandFG.com' );
           <h4>Company</h4>
           <a href="#why">Why Woodland</a>
           <a href="#how">How it works</a>
-          <a href="https://yankikahn.github.io/longbridge-funding/apply.html">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="foot-col">
           <h4>Get in touch</h4>
